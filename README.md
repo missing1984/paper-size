@@ -1,6 +1,11 @@
 # Paper Size
 Returns dimensions for given paper size
+## Install
+```
+npm install pager-size
+```
 
+## Usage
 ```js
 var paperSize = require('paper-size');
 paperSize.getSize('a4', { unit: 'mm' });  -> [ 210, 297 ]
