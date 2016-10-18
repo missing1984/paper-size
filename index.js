@@ -79,7 +79,7 @@ module.exports = {
         if (width > height) {
             height = [width, width = height][0];
         }
-        SIZES_IN_MM[name] = [width, height];
+        SIZES_IN_MM[name.toUpperCase()] = [width, height];
     },
     getSize: function(name, options) {
         options || (options = {});
